@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'Blog',
+  title: 'Kovid Rathee',
   author: 'Kovid Rathee',
   email: 'kovid.rathee@gmail.com',
   link: 'https://kovidrathee-blog.vercel.app',
