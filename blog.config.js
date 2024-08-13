@@ -8,7 +8,7 @@ const BLOG = {
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#e5e5e5', // use hex value, don't forget '#' e.g #fffefc
+  lightBackground: '#fffcf2', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2022, // If leave this empty, current year will be used.
@@ -16,7 +16,7 @@ const BLOG = {
   sortByDate: true,
   showAbout: false,
   showArchive: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://x.com/@Kovid_R',
   seo: {
@@ -38,7 +38,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: 'cusdis', // leave it empty if you don't need any comment plugin
+    provider: '', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
