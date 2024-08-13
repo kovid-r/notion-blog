@@ -25,4 +25,4 @@ const Footer = ({ fullWidth }) => {
   )
 }
 
-export default
+export default Footer
